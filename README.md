@@ -1,6 +1,8 @@
 # Coaxial Injector Optimization
 Code for optimization of fuel flowrate and droplet size of a coaxial injector (Combination of Master's research project and AAE 550 final report)
 
+Run through SQP.m
+
 The current method for making lead oxide hasn’t been improved significantly in the past decade.  The research project that I am working on is to design a coaxial injector using lead as the fuel, and air as the oxidizer to create lead oxide.  A coaxial injector works by having concentric cylinders, with the liquid (lead in this case) travelling through the center cylinder, and high velocity gas (air in this case) flowing through the annulus.  When the high velocity gas contacts the low velocity liquid, the shear stress and the Helmholtz instability causes the liquid to atomize. A representation can be seen in Figure 1. 
  
 ![Picture1](Pictures/Capture1.PNG)
